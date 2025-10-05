@@ -17,7 +17,7 @@ router.post('/', async(req,res)=>{
 });
 router.get('/', async(req,res)=>{
     try{
-        const data = await MenuItem.find();
+        const data = git add .await MenuItem.find();
         console.log(data);
         res.status(200).json(data);
 
